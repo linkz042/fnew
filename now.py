@@ -167,11 +167,11 @@ for x in range(2000):
 #	if mi in redmi:pass
 #	else:redmi.append(mi)
 	us = ['SM-G973U','Redmi K30i 5G','SM-S906N','SM-G980F','SM-G973U','itel W5505','SM-G892A','SM-G930VC','SM-G935S','itel A23','SM-G920V','SM-G928X','Pixel 6','Pixel 5','Hisense Infinity E30 Lite','Google Pixel 4','Nexus 6P','HTC One X10','Infinix X5515F','TECNO ID5a','TECNO K7','TECNO LA7','TECNO KB2j','TECNO i3','TECNO IN2','Hisense F24','TECNO CX AIR','Infinix X510','Infinix HOT 4 Pro','Infinix X559C','TECNO KC8','TECNO KC8S','TECNO KC2j','TECNO KC2','TECNO BA2','TECNO KF6j','moto g31','TECNO CG6','TECNO CB7','TECNO P5','SAMSUNG SM-G930T1','SO-02L','SM-N910V','SM-G892A','PIXEL 3a','Nexus','TECNO KG6k','TECNO-Y6','TECNO ID5a','TECNO CE7','TECNO BE7','TECNO CH7','Nokia G400 5G','Nokia T20']
-	A = f'Mozilla/5.0 (Linux; U; Android {str(rr(6,12))}; en-US; {str(rc(us))} Build/QQ2A.191125.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Versi/4.0 Chrome/{str(rr(11,99))}.0.{str(rr(1111,9999))}.{str(rr(1111,9999))} Mobile Safari/537.36 OPR/{str(rr(10,80))}.0.{str(rr(1000,9999))}.{str(rr(11111,10000))}'
+	A = f'Mozilla/5.0 (Linux; U; Android {str(rr(6,12))}; en-US; {str(rc(us))} Build/QQ2A.191125.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Versi/4.0 Chrome/{str(rr(11,99))}.0.{str(rr(1111,9999))}.{str(rr(1111,9999))} Mobile Safari/537.36 OPR/{str(rr(10,80))}.0.{str(rr(1111,9999))}.{str(rr(11111,99999))}'
 	B = f'{str(rc(aZ))}{str(rc(aZ))}{str(rc(aZ))}{str(rr(11,99))}{str(rc(aZ))}'
 	C = f'{str(rr(30,57))} Build/{B}) AppleWebKit/537.36 (KHTML, like Gecko)'
 	D = f' Version/4.0 Chrome/103.0.5060.129'
-	E = f' Mobile Safari/537.36 Puffin/9.7.2.{str(rr(1111,99999))}AP'
+	E = f' Mobile Safari/537.36 Puffin/9.7.2.{str(rr(1111,9999))}AP'
 	F_ = f'{A}{B}{C}{D}{E}'
 	if F_ in redmi:pass
 	else:redmi.append(F_)
