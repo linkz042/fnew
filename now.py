@@ -172,7 +172,7 @@ for x in range(2000):
 	C = f'{str(rr(30,57))} Build/{B}) AppleWebKit/537.36 (KHTML, like Gecko)'
 	D = f' Version/4.0 Chrome/103.0.5060.129'
 	E = f' Mobile Safari/537.36 Puffin/9.7.2.{str(rr(1111,99999))}AP'
-	F_ = f'{A}{B}{C}{D}{E}
+	F_ = f'{A}{B}{C}{D}{E}'
 	if F_ in redmi:pass
 	else:redmi.append(F_)
 try:abcd = open('.proxy.txt','r').read().splitlines()
